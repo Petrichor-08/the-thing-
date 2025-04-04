@@ -7,7 +7,10 @@ public class PlannerRunner {
         Student jada = new Student();
 
         // Gets the student's choice until the student exits
-        jada.getChoice();
+        jada.getChoice();  
+     
+     
+     jada.getChoice();
 
     }
 }
