@@ -13,17 +13,17 @@ public class Student {
     /*
      * Sets study planner and scanner
      */
-    public Student {
+    public Student() {
         planner = new StudyPlanner();
         scanner = new Scanner(System.in);
     }
-    
+   
     /*
      * Gets the student's choice and runs it until the student exits
      */
     public void getChoice() {
         int option = -1;
-
+       
         while (option != 3) {
             System.out.println("Welcome to Study Planner!");
             System.out.println("What would you like to do?");
@@ -60,4 +60,5 @@ public class Student {
         String dueDate = scanner.nextLine();
         planner.addAssignment(name, dueDate);
     }
+   
 }
